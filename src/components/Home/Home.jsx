@@ -9,7 +9,7 @@ import 'aos/dist/aos.css'
 const Home=()=>{
 
     React.useEffect(()=>{
-        Aos.init({});
+        Aos.init({}) ;
     },[])
     return(
         <>
