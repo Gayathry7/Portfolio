@@ -1,0 +1,205 @@
+.skillsBanner{
+    height:20vh;
+    width: 100%;
+    text-align:center;
+    background-color: #F7EDEA;
+    /* background-color: white; */
+    color: rgb(26, 14, 2);
+    box-shadow: 0px 5px 20px 15px #faf7d1 inset;
+    display: grid;
+    grid-template-columns: 10% 10%;
+    justify-content: center;
+    align-items: center;
+    /* grid-gap:-50px; */
+    border-bottom: 2px solid #f1e422;
+
+}
+
+.skillsBanner > img{
+    width: 45%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+
+.skillsDetails{
+    background-color: #FFFFFF;
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: 3% auto 1%;
+    box-shadow: 0px 5px 15px 5px #bbbbbb;
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 2.5% 0 0 2.5%;
+
+}
+
+.skillsBanner h1{
+    margin:0;
+    /* width: fit-content; */
+    /* background-color: white; */
+    /* position: absolute; */
+    /* top: 80%;
+    left: 45%; */
+    font-size: 45px;
+    /* letter-spacing: 5px; */
+    /* font-family:'Rubik', sans-serif; */
+    /* font-family: 'Bona Nova', serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.frontEnd{
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+    height: 30vh;
+    /* background-color: rgb(243, 239, 239); */
+    /* background-color: #EFF6F9; */
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.frontEnd>div{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.frontEnd>div img{
+  width: 100%;
+  margin: 0px auto;
+}
+
+.down{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .skillsBanner > img{
+        width: 47%;
+        height: 50%;
+        margin-left: 20%;
+    }
+  
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    
+    .skillsBanner >img{
+        width: 65%;
+        height: 50%;
+        margin-left: 50%;
+    }
+}
+@media only screen and (min-width: 790px) and (max-width: 991px) {
+    .skillsBanner >img{
+        width: 65%;
+        height: 40%;
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (min-width : 600px) and (max-width: 789px) {
+
+    .skillsBanner >img{
+        width: 55px;
+        height: 40%;
+        margin-left: 70px;
+    }
+    .frontEnd{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 70vh;
+        grid-template-rows: 20% 30%;
+        /* background-color: rgb(243, 239, 239); */
+        /* background-color: #EFF6F9; */
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .down{
+        display: none;
+    }
+
+    .frontEnd>div{
+        width: 20%;
+        margin: 0px auto;
+    }
+    
+    .skillsDetails{
+        background-color: #FFFFFF;
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: 3% auto 5%;
+        box-shadow: 0px 5px 15px 5px #bbbbbb;
+    }
+    /* .skillsDetails img{
+        height: 20vh;
+    } */
+}
+
+@media only screen and (max-width: 600px){
+
+    .skillsBanner{
+        grid-template-columns:  30% 10%;
+
+    }
+
+    .skillsBanner h1{
+        font-size: 35px;
+    }
+    .skillsBanner >img{
+        width: 55px;
+        height: 40%;
+        /* margin-left: 70px; */
+    }
+    .frontEnd{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 70vh;
+        grid-template-rows: 20% 30%;
+        /* background-color: rgb(243, 239, 239); */
+        /* background-color: #EFF6F9; */
+        background-color: #FFFFFF;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .down{
+        display: none;
+    }
+
+    .frontEnd>div{
+        width: 20%;
+        margin: 0px auto;
+    }
+    
+    .skillsDetails{
+        background-color: #FFFFFF;
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: 3% auto 5%;
+        box-shadow: 0px 5px 15px 5px #bbbbbb;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .skillsBanner >img{
+        width: 40px;
+        height: 30%;
+        margin-left: 15px;
+    }
+}
