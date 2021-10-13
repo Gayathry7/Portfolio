@@ -94,7 +94,7 @@ const Project=()=>{
               </div>
               
               <div>
-                <img src='toggl.jpg' alt='toggl track project'/>
+                <img src='toggl.JPG' alt='toggl track project'/>
               </div>
 
           </div>
