@@ -53,7 +53,7 @@ const Skills=()=>{
                   </div>
 
                   <div>
-                    <img src='TS.png' alt="redux"/>
+                    <img src='ts.png' alt="ts"/>
                     <p>TypeScript</p>
                   </div>
 

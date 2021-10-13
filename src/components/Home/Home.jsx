@@ -63,7 +63,7 @@ const Home=()=>{
                         </div>
                         
                         <div className={styles.profile__icons}> 
-                        <a href='gayathryjm.medium.com' target="_blank" rel="noreferrer">
+                        <a href='https://gayathryjm.medium.com/' target="_blank" rel="noreferrer">
                         <AiOutlineMedium/>
                         </a>
                         </div>

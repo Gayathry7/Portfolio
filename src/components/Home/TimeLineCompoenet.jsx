@@ -25,9 +25,14 @@ const TimeLineComponent=()=>{
   >
     <h3 className="vertical-timeline-element-title">Instructional Associate</h3>
     <h4 className="vertical-timeline-element-subtitle">Masai School - Bangalore, India</h4>
-    {/* <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p> */}
+    <p>
+      <ul>
+        <li> Led daily stand-ups for students where I would guide students with academics by clarifying the conceptual doubts.</li>
+        <li>Assisted teaching staffs with assignment supervision and administered project completion for the group.</li>
+        <li>Organized and recommended technical sessions when required.</li>
+        <li>Worked on internal projects.</li>
+      </ul>
+    </p>
   </VerticalTimelineElement>
 
   <VerticalTimelineElement
@@ -41,7 +46,10 @@ const TimeLineComponent=()=>{
     <h3 className="vertical-timeline-element-title">Student</h3>
     <h4 className="vertical-timeline-element-subtitle">Masai School (Remote)</h4>
     <p>
-     Joined a 30 week, Full Time, Full Stack Web Development bootcamp, to master MERN stack, DSA and Soft Skills.
+      <ul>
+        <li>Joined a 30 week, Full Time, Full Stack Web Development bootcamp, to master MERN stack, DSA and Soft Skills.</li>
+      </ul>
+     
     </p>
   </VerticalTimelineElement>
 
@@ -55,9 +63,14 @@ const TimeLineComponent=()=>{
   >
     <h3 className="vertical-timeline-element-title">Teaching Associate</h3>
     <h4 className="vertical-timeline-element-subtitle">Ahmedabad University - Gujarat, India</h4>
-    {/* <p>
-      User Experience, Visual Design
-    </p> */}
+    <p>
+     <ul>
+       <li>Assisted university professors with lab sessions and research projects.</li>
+       <li>Guided and mentored students with their technical doubts.</li>
+     </ul>
+
+
+    </p>
   </VerticalTimelineElement>
 
 
