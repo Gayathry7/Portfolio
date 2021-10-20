@@ -7,6 +7,7 @@ import {
   } from 'react-transition-group'
 import { Skills } from "../Skills/Skills"
 import { Project } from "../Projects/Project"
+import { Footer } from "./Footer"
 
 const Routes =()=>{
 
@@ -35,6 +36,8 @@ const Routes =()=>{
             </Route>
 
         </Switch>
+
+        <Footer/>
         </>
     )
     

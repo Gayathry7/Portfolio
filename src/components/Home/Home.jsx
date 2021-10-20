@@ -76,12 +76,12 @@ const Home=()=>{
                     </div>
 
                     <div className={styles.profile__details} data-aos = 'zoom-in-right' data-aos-offset="250" data-aos-duration="1000">
-                        <h1>Biography</h1>
+                        <h1> About myself</h1>
                         <div>🏡 I am from Trichy, TamilNadu.</div>
                         <div>😍 I like watching movies, listening music , travelling and painting. </div>
                         <div>🤝 I think of myself as a people person.</div>
-                        <div>❤️ I love designing websites and I am looking for more opporunity to work in coding.</div>
-                        <div>🤗 Apart from being a good technocrat, I wish to contribute towards the betterment of society with the knowledge I have gained so far and will in the coming years.</div>
+                        <div>❤️ I love designing websites and I am looking for more opportunities to work in coding.</div>
+                        <div>🤗 Apart from being a good technocrat, I wish to contribute towards the betterment of the society with the knowledge I have gained so far and will be,in the coming years.</div>
                     </div>
             </div>
 

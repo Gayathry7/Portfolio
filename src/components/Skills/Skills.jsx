@@ -73,11 +73,11 @@ const Skills=()=>{
 
 
               <div className={styles.skillsDetails} data-aos = 'fade-right' data-aos-duration="1500">
-                <h1>{`Back-End & Data Bases`}</h1>
+                <h1>{`Back-End & Database`}</h1>
                 <hr/>
 
 
-                  <div className={styles.frontEnd}>
+                  <div className={styles.backend}>
                   
                       <div>
                           <img src='nodejs.png' alt="node"/>

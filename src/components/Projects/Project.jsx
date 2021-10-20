@@ -38,7 +38,7 @@ const Project=()=>{
                   
                   <div>
                       <button>
-                        <a href='#' target="_blank" rel="noreferrer">
+                        <a href='https://timesofindia.netlify.app/' target="_blank" rel="noreferrer">
                                 DEMO
                         </a>
                      </button>
@@ -53,6 +53,49 @@ const Project=()=>{
               
               <div>
                 <img src='TOI.png' alt='Times_Of_India'/>
+              </div>
+
+          </div>
+
+          {/* Tic-Tac-Toe */}
+
+          <div className={styles.toi}
+          data-aos="fade-up" 
+          data-aos-offset="120"
+            // data-aos-delay="800"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out">
+              <div>
+                  <h1>Tic-Tac-Toe Game</h1>
+                  <p>
+                      <div>Tools : React | CSS | JavaScript | Styled Components</div>
+                      <div>Features :</div>
+                      <div>
+                          <ul>
+                              <li>Users can either play in Multiplayer mode or withcomputer/AI.
+                              <li>The users can also track their moves.</li>
+                              <li>All the edge cases of the game have been covered.Minimax Algorithm has been implemented while playing with AI to find the optimal move for a player.</li>
+                              </li>
+                          </ul>
+                      </div>
+                  </p>
+                  
+                  <div>
+                        <button>
+                        <a href='https://tic-tac-toe-gayathry7.vercel.app/' target="_blank" rel="noreferrer">
+                                DEMO
+                        </a>
+                     </button>
+                      <button>
+                         <a href='https://github.com/Gayathry7/Tic-Tac-Toe-Game' target="_blank" rel="noreferrer">
+                             VIEW CODE
+                          </a>
+                      </button>
+                  </div>
+              </div>
+              
+              <div>
+                <img src='tic.png' alt='toggl track project'/>
               </div>
 
           </div>

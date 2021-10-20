@@ -53,7 +53,7 @@ h1{
 
 }
 
-.frontEnd{
+.frontEnd, .backend{
     display: grid;
     grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
     height: 30vh;
@@ -63,15 +63,26 @@ h1{
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
-.frontEnd>div{
-    width: 50%;
+.backend{
+    grid-template-columns: 13% 13% 13% 13%;
+}
+
+.frontEnd>div, .backend>div{
+    width: 55%;
+    height: 20vh;
     margin: 0px auto;
+    /* border: 1px solid black; */
+}
+.frontEnd p, .backend p{
+    text-align:center;
 }
 
-.frontEnd>div img{
+.frontEnd>div img , .backend>div img{
   width: 100%;
+  height: 12vh;
   margin: 0px auto;
 }
 
@@ -116,7 +127,7 @@ h1{
         height: 40%;
         margin-left: 70px;
     }
-    .frontEnd{
+    .frontEnd, .backend{
         display: grid;
         grid-template-columns: 50% 50%;
         height: 70vh;
@@ -133,10 +144,17 @@ h1{
         display: none;
     }
 
-    .frontEnd>div{
-        width: 20%;
+    .frontEnd>div, .backend>div{
+        width: 25%;
         margin: 0px auto;
+        height: 15vh;
+
     }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 9vh;
+        margin: 0px auto;
+      }
     
     .skillsDetails{
         background-color: #FFFFFF;
@@ -165,7 +183,7 @@ h1{
         height: 40%;
         /* margin-left: 70px; */
     }
-    .frontEnd{
+    .frontEnd, .backend{
         display: grid;
         grid-template-columns: 50% 50%;
         height: 70vh;
@@ -182,10 +200,17 @@ h1{
         display: none;
     }
 
-    .frontEnd>div{
-        width: 20%;
+    .frontEnd>div, .backend>div{
+        width: 40%;
         margin: 0px auto;
+        height: 12vh;
+
     }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 9vh;
+        margin: 0px auto;
+      }
     
     .skillsDetails{
         background-color: #FFFFFF;

@@ -88,7 +88,11 @@
     /* font-family: 'Merienda', cursive; */
     font-family: 'Bona Nova', serif;
 }
-
+.profile__details>h1{
+    padding-bottom: 7px;
+    font-size: 22px;
+    text-decoration: underline;
+}
 .profile__details>div{
    font-size: 20px;
    padding: 5px;
