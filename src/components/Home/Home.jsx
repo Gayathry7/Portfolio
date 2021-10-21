@@ -24,7 +24,7 @@ const Home=()=>{
                   <h1>Welcome to my portfolio ! </h1>
                  
                   <div>
-                        I am passionate Full Stack Web Developer who focuses on writing clean 
+                        I am a passionate Full Stack Web Developer who focuses on writing clean 
                         <br/>and user-friendly applications using 
                         <br/>
 

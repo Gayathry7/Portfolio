@@ -72,18 +72,30 @@ h1{
 
 .frontEnd>div, .backend>div{
     width: 55%;
-    height: 20vh;
+    height: 17vh;
     margin: 0px auto;
     /* border: 1px solid black; */
+    /* border-radius: 50%; */
+    box-shadow: 0px 5px 10px 1px lightgray;
+    padding:15px;
+}
+.frontEnd>div:hover, .backend>div:hover{
+    transform: scale(1.1); 
+    box-shadow: 3px 0px 15px 2px #c5c5c5;
+    transition: transform 330ms ease-in-out;
 }
 .frontEnd p, .backend p{
     text-align:center;
+    padding: 0;
+    margin: 0;
+    padding-top: 7%;
 }
 
 .frontEnd>div img , .backend>div img{
-  width: 100%;
+  width: 90%;
   height: 12vh;
   margin: 0px auto;
+  /* background-color: lightgreen; */
 }
 
 .down{
@@ -100,6 +112,11 @@ h1{
         height: 50%;
         margin-left: 20%;
     }
+     .frontEnd>div img , .backend>div img{
+        width: 80%;
+        height: 10vh;
+        margin: 0px auto;
+      }
   
 }
 
@@ -111,6 +128,23 @@ h1{
         height: 50%;
         margin-left: 50%;
     }
+
+    .frontEnd>div, .backend>div{
+        width: 64%;
+        height: 15vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+    }
+
+    .frontEnd>div img , .backend>div img{
+        /* width: 100%; */
+        height: 10vh;
+        margin: 0px auto;
+      }
 }
 @media only screen and (min-width: 790px) and (max-width: 991px) {
     .skillsBanner >img{
@@ -118,6 +152,24 @@ h1{
         height: 40%;
         margin-left: 70%;
     }
+
+    .frontEnd>div, .backend>div{
+        width: 60%;
+        height: 15vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+    }
+
+     .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 9vh;
+        margin: 0px auto;
+      }
 }
 
 @media only screen and (min-width : 600px) and (max-width: 789px) {
@@ -144,15 +196,28 @@ h1{
         display: none;
     }
 
-    .frontEnd>div, .backend>div{
+    /* .frontEnd>div, .backend>div{
         width: 25%;
         margin: 0px auto;
         height: 15vh;
 
+    } */
+
+    .frontEnd>div, .backend>div{
+        width: 25%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+
     }
     .frontEnd>div img , .backend>div img{
-        width: 100%;
-        height: 9vh;
+        width: 75%;
+        height: 7vh;
         margin: 0px auto;
       }
     
@@ -200,7 +265,7 @@ h1{
         display: none;
     }
 
-    .frontEnd>div, .backend>div{
+    /* .frontEnd>div, .backend>div{
         width: 40%;
         margin: 0px auto;
         height: 12vh;
@@ -209,6 +274,24 @@ h1{
     .frontEnd>div img , .backend>div img{
         width: 100%;
         height: 9vh;
+        margin: 0px auto;
+      } */
+
+      .frontEnd>div, .backend>div{
+        width: 25%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 14px;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 7vh;
         margin: 0px auto;
       }
     
@@ -227,4 +310,24 @@ h1{
         height: 30%;
         margin-left: 15px;
     }
+
+    .frontEnd>div, .backend>div{
+        width: 30%;
+        height: 10vh;
+        margin: 0px auto;
+        padding:15px;
+    }
+
+    .frontEnd p, .backend p{
+        padding-top: 5%;
+        font-size: 12px;
+
+    }
+    .frontEnd>div img , .backend>div img{
+        width: 100%;
+        height: 7vh;
+        margin: 0px auto;
+      }
+
+  
 }
